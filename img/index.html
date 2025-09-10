@@ -1,0 +1,91 @@
+<!--Eduarda Amaral 2ºD-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beyoncé Knowles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- MENU DE ACESSIBILIDADE -->
+  <div class="menu-acessibilidade">
+    <button id="botao-acessibilidade"
+            aria-expanded="false"
+            aria-controls="opcoes-acessibilidade"
+            aria-label="Abrir opções de acessibilidade">
+      Acessibilidade
+    </button>
+
+    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade" aria-hidden="true">
+      <button id="aumentar-fonte">Aumentar Fonte</button>
+      <button id="diminuir-fonte">Diminuir Fonte</button>
+      <button id="resetar-fonte">Resetar Fonte</button>
+    </div>
+  </div>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <nav class="container nav-bar">
+      <img src="" alt="" class="nav-img" />
+      <ul class="nav">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="container">
+    <section id="inicio" class="secao-inicio">
+      <div class="conteudo-inicio">
+        <img src="img/WhatsApp Image 2025-09-10 at 07.22.05 (1).jpeg" alt="Beyoncé sorrindo" class="img-inicio" />
+        <div>
+          <h1>Beyoncé: A Rainha do Pop e R&B</h1>
+          <p>Beyoncé Giselle Knowles-Carter nasceu em 4 de setembro de 1981, em Houston, Texas. Ícone global da música e da cultura.</p>
+          <a href="#beyonce" class="botao">Quero conhecer!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="beyonce">
+      <h2>Biografia</h2>
+      <p><strong>Beyoncé é uma cantora, compositora e empresária americana que ganhou 
+        fama nos anos 90 como vocalista do grupo R&B Destiny's Child, e lançou uma carreira solo de 
+        enorme sucesso a partir de 2003 com o álbum Dangerously in Love. Conhecida por sua voz potente, reinvenções artísticas e espetáculos ao vivo,
+         ela é uma das artistas mais influentes e culturalmente significativas do século XXI, quebrando recordes de Grammys e vendas de discos com álbuns 
+         como Lemonade e empreendendo negócios como sua linha de roupas Ivy Park. </p>
+    </section>
+
+    <section id="galeria" class="fundo-galeria">
+      <h2>Galeria</h2>
+      <div class="grid">
+        <img src="img/WhatsApp Image 2025-09-10 at 07.22.05 (2).jpeg" alt="Beyoncé em show" />
+        <img src="img/WhatsApp Image 2025-09-10 at 07.22.06.jpeg" alt="Beyoncé recebendo um Grammy" />
+        <img src="img/WhatsApp Image 2025-09-10 at 07.22.06 (1).jpeg" alt="Beyoncé no Coachella" />
+      </div>
+    </section>
+
+    <section id="contato" class="formulario">
+      <h2>Entre em contato</h2>
+      <form>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Digite seu nome" />
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Digite seu email" />
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Site criado por Eduarda Amaral — 2ºD</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
